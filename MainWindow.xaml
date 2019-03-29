@@ -1,0 +1,22 @@
+﻿<Window x:Class="T_Shirt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T_Shirt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000">
+    <Canvas x:Name="canvas">
+        <Rectangle Canvas.Left="698" Canvas.Top="100" Width="250" Height="200" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform Angle="35" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Canvas.Left="98" Canvas.Top="242.8" Width="250" Height="200" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform Angle="325" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <CheckBox x:Name="PolkaDotsBox" Content="Polka Dots?" FontSize="30" Checked="PolkaDotsBox_Checked" Unchecked="PolkaDotsBox_Unchecked" Canvas.Left="10" Canvas.Top="620" RenderTransformOrigin="0.674,2.477"/>
+    </Canvas>
+</Window>

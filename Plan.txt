@@ -1,0 +1,27 @@
+﻿Step 1: Add a Check Box, and change the Grid to Canvas, naming the Canvas canvas
+Step 2: Under Initialize Component, Add a rectangle and a ellipse
+Set the colour of the circle to white, and move it to overlap the top end of the rectangle using set top and set left
+*Make sure to add canvas.Children.Add(variable)
+Step 3: Add the Rectangle a colour
+Step 4: In the Check Box, set up a unchecked and a checked event (.xaml)
+Step 5: Under the checked event, add a for loop, with another for loop nested inside, both representing different variables like this:
+for (int j = 3; j < 7; j++)
+            {
+                for (int i = 2; i < 6; i++)
+                {
+
+				}
+			}
+Step 6: Add the same code under initalize Component into the unchecked event
+Step 7: Add the following code in the .xaml to swt up the sleaves on an angle:
+<Rectangle Canvas.Left="698" Canvas.Top="100" Width="250" Height="200" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform Angle="35" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Canvas.Left="98" Canvas.Top="242.8" Width="250" Height="200" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform Angle="325" />
+            </Rectangle.RenderTransform>
+			</Rectangle>
+(those values are place holders, don't have to be exact)
